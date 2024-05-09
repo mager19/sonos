@@ -5,21 +5,26 @@
  */
 
 .wp-block-mijobrands-cta {
+	@apply bg-gray-50;
 	border: 1px dotted #f00;
 
 	.content__cta {
 		position: relative;
 
 		&:before {
-			@apply bg-red-500;
+			background-color: #F57F43;
 			content: '';
-			display: none !important;
-			height: 175px;
-			width: 40px;
+			display: block;
+			height: 125px;
+			width: 30px;
 			position: absolute;
 			transform: skew(15deg, 0);
 			top: 0;
-			left: -20px;
+			left: 10px;
+		}
+
+		.cta__title {
+			@apply  pl-16 lg:pl-16 mt-0 lg:mt-1 font-normal text-[#4D4D4F] text-5xl;
 		}
 	}
 }

@@ -7,22 +7,38 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-mijobrands-cta {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
   border: 1px dotted #f00;
 }
 .wp-block-mijobrands-cta .content__cta {
   position: relative;
 }
 .wp-block-mijobrands-cta .content__cta:before {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: #F57F43;
   content: "";
-  display: none !important;
-  height: 175px;
-  width: 40px;
+  display: block;
+  height: 125px;
+  width: 30px;
   position: absolute;
   transform: skew(15deg, 0);
   top: 0;
-  left: -20px;
+  left: 10px;
+}
+.wp-block-mijobrands-cta .content__cta .cta__title {
+  margin-top: 0px;
+  padding-left: 4rem;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(77 77 79 / var(--tw-text-opacity));
+}
+@media (min-width: 1024px) {
+  .wp-block-mijobrands-cta .content__cta .cta__title {
+    margin-top: 0.25rem;
+    padding-left: 4rem;
+  }
 }
 
 /*# sourceMappingURL=index.css.map*/

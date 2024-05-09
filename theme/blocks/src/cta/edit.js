@@ -50,9 +50,9 @@ export default function Edit(props) {
 			</InspectorControls>
 
 			<div {...blockProps}>
-				<div className="content__cta">
+				<div className="content__cta bg-gris-oscuro">
 					<RichText
-						className="mt-0 text-header-cta cta__title text-gris-oscuro"
+						className="mt-0 text-5xl cta__title text-gris-oscuro"
 						tagName="h3"
 						placeholder={__('Hero Intro text Lorem ipsum dolor sit amed')}
 						value={title}

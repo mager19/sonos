@@ -10,7 +10,7 @@ module.exports = {
 	],
 	content: [
 		'./theme/**/*.php',
-		'./theme/blocks/build/**/*.{php, css, scss}',
+		'./theme/blocks/**/*.{php, js}',
 	],
 	theme: {
 		// Extend the default Tailwind theme.
@@ -22,11 +22,7 @@ module.exports = {
 					oscuro: '#4D4D4F',
 					medium: '#4D4D4F'
 				},
-				light: {
-					1: "#f6f9fd",
-					2: "#e7ebf3",
-					3: "#92a8d1",
-				},
+				heroBg: "#262626E5"
 
 			},
 			container: {

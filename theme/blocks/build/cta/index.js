@@ -102,9 +102,9 @@ function Edit(props) {
   })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "content__cta"
+    className: "content__cta bg-gris-oscuro"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
-    className: "mt-0 text-header-cta cta__title text-gris-oscuro",
+    className: "mt-0 text-5xl cta__title text-gris-oscuro",
     tagName: "h3",
     placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Hero Intro text Lorem ipsum dolor sit amed'),
     value: title,
