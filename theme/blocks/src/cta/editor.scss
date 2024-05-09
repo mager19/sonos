@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-mijobrands-cta {
+	border: 1px dotted #f00;
+
+	.content__cta {
+		position: relative;
+
+		&:before {
+			@apply bg-red-500;
+			content: '';
+			display: none !important;
+			height: 175px;
+			width: 40px;
+			position: absolute;
+			transform: skew(15deg, 0);
+			top: 0;
+			left: -20px;
+		}
+	}
+}

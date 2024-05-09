@@ -1,0 +1,28 @@
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/cta/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-mijobrands-cta {
+  border: 1px dotted #f00;
+}
+.wp-block-mijobrands-cta .content__cta {
+  position: relative;
+}
+.wp-block-mijobrands-cta .content__cta:before {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  content: "";
+  display: none !important;
+  height: 175px;
+  width: 40px;
+  position: absolute;
+  transform: skew(15deg, 0);
+  top: 0;
+  left: -20px;
+}
+
+/*# sourceMappingURL=index.css.map*/

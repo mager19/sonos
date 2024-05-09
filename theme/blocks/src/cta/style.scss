@@ -1,0 +1,39 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-mijobrands-cta {
+	@apply bg-cover bg-no-repeat bg-center;
+	.content__cta {
+		@apply py-10 lg:py-20 px-4 lg:px-0;
+		position: relative;
+
+		&:before {
+			background-color: #F57F43;
+			content: '';
+			display: block;
+			height: 103px;
+			width: 3cqb;
+			position: absolute;
+			transform: skew(15deg, 0);
+			top: 15%;
+			left: 30px;
+		}
+
+		@screen lg{
+			&:before {
+				height: 175px;
+				width: 40px;
+				top: 0;
+				left: -30px;
+			}
+		}
+
+		.cta__title {
+			@apply pl-16 lg:pl-16 mt-0 lg:mt-1 font-normal text-[#4D4D4F];
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mijobrands/cta",
+	"version": "0.1.0",
+	"title": "Cta Block",
+	"category": "mijobrands-blocks",
+	"icon": "smiley",
+	"description": "Simple Cta block",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Hero Intro text Lorem ipsum dolor sit amed"
+		},
+		"description": {
+			"type": "string",
+			"default": "General site description Intro text Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed"
+		}
+	},
+	"example": {
+		"title": {
+			"type": "string",
+			"default": "Hero Intro text Lorem ipsum dolor sit amed"
+		},
+		"description": {
+			"type": "string",
+			"default": "General site description Intro text Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed"
+		}
+	},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mijobrands",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
