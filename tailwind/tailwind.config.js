@@ -36,6 +36,13 @@ module.exports = {
 						lineHeight: "3.125rem",
 					},
 				],
+				"body-s": [
+					"0.875rem",
+					{
+						fontWeight: "300",
+						lineHeight: "1.125rem",
+					},
+				],
 				"body-m": [
 					"1.125rem",
 					{

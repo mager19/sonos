@@ -6,3 +6,96 @@
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+
+/* Buttons */
+
+.btn {
+	@apply inline-flex items-center gap-0 lg:gap-4 px-4 py-1 lg:py-[10px] text-sm font-semibold leading-none rounded-3xl;
+
+	&--primary {
+		@apply text-white border border-transparent bg-orangeSonos;
+
+		span {
+			@apply font-bold text-white text-body-s;
+			letter-spacing: 0.5px;
+		}
+
+		&:hover {
+			@apply border bg-heroBg border-orangeSonos;
+
+			svg {
+				path {
+					stroke: #fff;
+				}
+			}
+		}
+	}
+}
+
+.video__homepage {
+	margin: 0;
+	video {
+		object-fit: cover;
+		height: 280px;
+		width: 100%;
+	}
+
+	@screen lg {
+		video {
+			height: 645px;
+		}
+	}
+}
+
+.menuModal {
+	.iziModal-content {
+		@apply p-0 !important;
+
+		background-color: rgba(38, 38, 38, 0.9);
+
+		.modal__content {
+			@apply px-6 pt-16;
+
+			p {
+				@apply text-black;
+			}
+
+			img {
+				width: 80%;
+				height: auto;
+				object-fit: cover;
+				margin: 0 auto;
+			}
+
+			ul {
+				@apply ml-0 w-full mt-5 !important;
+
+				li {
+					@apply pb-4 mb-4 border-b border-orangeSonos last:border-0;
+					list-style: none;
+					a {
+						@apply pl-4 font-normal text-white visited:text-white !important;
+						letter-spacing: 1px;
+						transition: all 0.3s linear;
+
+						&:hover {
+							@apply opacity-80;
+						}
+
+						&:visited {
+							@apply text-black;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.iziModal-content {
+	@apply px-8 pt-4 pb-8 !important;
+
+	button {
+		@apply bg-transparent border-0;
+	}
+}
