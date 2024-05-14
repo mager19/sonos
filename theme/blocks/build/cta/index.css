@@ -7,6 +7,7 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-mijobrands-cta {
+  position: relative;
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
   border: 1px dotted #f00;
@@ -24,6 +25,7 @@
   transform: skew(15deg, 0);
   top: 0;
   left: 10px;
+  opacity: 0.6;
 }
 .wp-block-mijobrands-cta .content__cta .cta__title {
   margin-top: 0px;

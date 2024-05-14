@@ -5,7 +5,7 @@
  */
 
 .wp-block-mijobrands-cta {
-	@apply bg-gray-50;
+	@apply bg-gray-50 relative;
 	border: 1px dotted #f00;
 
 	.content__cta {
@@ -21,6 +21,7 @@
 			transform: skew(15deg, 0);
 			top: 0;
 			left: 10px;
+			opacity: 0.6;
 		}
 
 		.cta__title {

@@ -15,3 +15,15 @@
 .entry-content {
 	@apply px-8;
 }
+
+.tagBlock {
+	@apply text-white bg-red-400;
+	font-size: 11px;
+	left: 0;
+	letter-spacing: 0.5px;
+	padding: 2px 5px;
+	top: 0px;
+	opacity: 0.5;
+	position: absolute;
+	text-decoration: underline;
+}

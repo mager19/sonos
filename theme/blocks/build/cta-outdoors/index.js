@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/cta/assets/clicky.svg":
-/*!***********************************!*\
-  !*** ./src/cta/assets/clicky.svg ***!
-  \***********************************/
+/***/ "./src/cta-outdoors/assets/clicky.svg":
+/*!********************************************!*\
+  !*** ./src/cta-outdoors/assets/clicky.svg ***!
+  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -21,20 +21,24 @@ function _extends() { _extends = Object.assign ? Object.assign.bind() : function
 var SvgClicky = function SvgClicky(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 17 17"
+    fill: "none",
+    viewBox: "0 0 15 15"
   }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
-    d: "M14 8H3V7h11zm3-5v11H0V3zm-1 1H1v9h15zm-9.643 7h4.286V9H6.357z"
+    fill: "#000",
+    fillRule: "evenodd",
+    d: "M2 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M2 5v5h11V5zm0-1a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1zm-.5 10a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M4 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M3.5 14a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M6 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M5.5 14a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M8 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M7.5 14a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M10 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M9.5 14a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M12 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M11.5 14a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M14 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0M13.5 14a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1",
+    clipRule: "evenodd"
   })));
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTcgMTciIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgZmlsbD0iIzAwMDAwMCI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDxwYXRoIGQ9Ik0xNCA4aC0xMXYtMWgxMXYxek0xNyAzdjExaC0xN3YtMTFoMTd6TTE2IDRoLTE1djloMTV2LTl6TTYuMzU3IDExaDQuMjg2di0yaC00LjI4NnYyeiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPiA8L2c+PC9zdmc+Cg==");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTUgMTUiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgaWQ9IlNWR1JlcG9fYmdDYXJyaWVyIiBzdHJva2Utd2lkdGg9IjAiPjwvZz48ZyBpZD0iU1ZHUmVwb190cmFjZXJDYXJyaWVyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjwvZz48ZyBpZD0iU1ZHUmVwb19pY29uQ2FycmllciI+IDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMiAxLjVDMiAxLjc3NjE0IDEuNzc2MTQgMiAxLjUgMkMxLjIyMzg2IDIgMSAxLjc3NjE0IDEgMS41QzEgMS4yMjM4NiAxLjIyMzg2IDEgMS41IDFDMS43NzYxNCAxIDIgMS4yMjM4NiAyIDEuNVpNMiA1TDIgMTBIMTNWNUgyWk0yIDRDMS40NDc3MiA0IDEgNC40NDc3MiAxIDVWMTBDMSAxMC41NTIzIDEuNDQ3NzIgMTEgMiAxMUgxM0MxMy41NTIzIDExIDE0IDEwLjU1MjMgMTQgMTBWNUMxNCA0LjQ0NzcyIDEzLjU1MjMgNCAxMyA0SDJaTTEuNSAxNEMxLjc3NjE0IDE0IDIgMTMuNzc2MSAyIDEzLjVDMiAxMy4yMjM5IDEuNzc2MTQgMTMgMS41IDEzQzEuMjIzODYgMTMgMSAxMy4yMjM5IDEgMTMuNUMxIDEzLjc3NjEgMS4yMjM4NiAxNCAxLjUgMTRaTTQgMS41QzQgMS43NzYxNCAzLjc3NjE0IDIgMy41IDJDMy4yMjM4NiAyIDMgMS43NzYxNCAzIDEuNUMzIDEuMjIzODYgMy4yMjM4NiAxIDMuNSAxQzMuNzc2MTQgMSA0IDEuMjIzODYgNCAxLjVaTTMuNSAxNEMzLjc3NjE0IDE0IDQgMTMuNzc2MSA0IDEzLjVDNCAxMy4yMjM5IDMuNzc2MTQgMTMgMy41IDEzQzMuMjIzODYgMTMgMyAxMy4yMjM5IDMgMTMuNUMzIDEzLjc3NjEgMy4yMjM4NiAxNCAzLjUgMTRaTTYgMS41QzYgMS43NzYxNCA1Ljc3NjE0IDIgNS41IDJDNS4yMjM4NiAyIDUgMS43NzYxNCA1IDEuNUM1IDEuMjIzODYgNS4yMjM4NiAxIDUuNSAxQzUuNzc2MTQgMSA2IDEuMjIzODYgNiAxLjVaTTUuNSAxNEM1Ljc3NjE0IDE0IDYgMTMuNzc2MSA2IDEzLjVDNiAxMy4yMjM5IDUuNzc2MTQgMTMgNS41IDEzQzUuMjIzODYgMTMgNSAxMy4yMjM5IDUgMTMuNUM1IDEzLjc3NjEgNS4yMjM4NiAxNCA1LjUgMTRaTTggMS41QzggMS43NzYxNCA3Ljc3NjE0IDIgNy41IDJDNy4yMjM4NiAyIDcgMS43NzYxNCA3IDEuNUM3IDEuMjIzODYgNy4yMjM4NiAxIDcuNSAxQzcuNzc2MTQgMSA4IDEuMjIzODYgOCAxLjVaTTcuNSAxNEM3Ljc3NjE0IDE0IDggMTMuNzc2MSA4IDEzLjVDOCAxMy4yMjM5IDcuNzc2MTQgMTMgNy41IDEzQzcuMjIzODYgMTMgNyAxMy4yMjM5IDcgMTMuNUM3IDEzLjc3NjEgNy4yMjM4NiAxNCA3LjUgMTRaTTEwIDEuNUMxMCAxLjc3NjE0IDkuNzc2MTQgMiA5LjUgMkM5LjIyMzg2IDIgOSAxLjc3NjE0IDkgMS41QzkgMS4yMjM4NiA5LjIyMzg2IDEgOS41IDFDOS43NzYxNCAxIDEwIDEuMjIzODYgMTAgMS41Wk05LjUgMTRDOS43NzYxNCAxNCAxMCAxMy43NzYxIDEwIDEzLjVDMTAgMTMuMjIzOSA5Ljc3NjE0IDEzIDkuNSAxM0M5LjIyMzg2IDEzIDkgMTMuMjIzOSA5IDEzLjVDOSAxMy43NzYxIDkuMjIzODYgMTQgOS41IDE0Wk0xMiAxLjVDMTIgMS43NzYxNCAxMS43NzYxIDIgMTEuNSAyQzExLjIyMzkgMiAxMSAxLjc3NjE0IDExIDEuNUMxMSAxLjIyMzg2IDExLjIyMzkgMSAxMS41IDFDMTEuNzc2MSAxIDEyIDEuMjIzODYgMTIgMS41Wk0xMS41IDE0QzExLjc3NjEgMTQgMTIgMTMuNzc2MSAxMiAxMy41QzEyIDEzLjIyMzkgMTEuNzc2MSAxMyAxMS41IDEzQzExLjIyMzkgMTMgMTEgMTMuMjIzOSAxMSAxMy41QzExIDEzLjc3NjEgMTEuMjIzOSAxNCAxMS41IDE0Wk0xNCAxLjVDMTQgMS43NzYxNCAxMy43NzYxIDIgMTMuNSAyQzEzLjIyMzkgMiAxMyAxLjc3NjE0IDEzIDEuNUMxMyAxLjIyMzg2IDEzLjIyMzkgMSAxMy41IDFDMTMuNzc2MSAxIDE0IDEuMjIzODYgMTQgMS41Wk0xMy41IDE0QzEzLjc3NjEgMTQgMTQgMTMuNzc2MSAxNCAxMy41QzE0IDEzLjIyMzkgMTMuNzc2MSAxMyAxMy41IDEzQzEzLjIyMzkgMTMgMTMgMTMuMjIzOSAxMyAxMy41QzEzIDEzLjc3NjEgMTMuMjIzOSAxNCAxMy41IDE0WiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPiA8L2c+PC9zdmc+Cg==");
 
 /***/ }),
 
-/***/ "./src/cta/edit.js":
-/*!*************************!*\
-  !*** ./src/cta/edit.js ***!
-  \*************************/
+/***/ "./src/cta-outdoors/edit.js":
+/*!**********************************!*\
+  !*** ./src/cta-outdoors/edit.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -49,7 +53,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./src/cta/editor.scss");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./src/cta-outdoors/editor.scss");
 
 /**
  * Retrieves the translation of text.
@@ -64,7 +68,6 @@ __webpack_require__.r(__webpack_exports__);
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-
 
 
 /**
@@ -83,53 +86,93 @@ __webpack_require__.r(__webpack_exports__);
  *
  * @return {Element} Element to render.
  */
-
 function Edit(props) {
   const {
     attributes,
     setAttributes
   } = props;
   const {
-    title,
-    description
+    image
   } = attributes;
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)({
-    className: 'align-full bg-slate-100 text-white py-20 px-4'
+    className: 'ourdoors-cta',
+    style: {
+      backgroundImage: 'url(' + image.url + ')',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      padding: '20px',
+      height: '230px'
+    }
   });
+  const innerBlocksProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useInnerBlocksProps)({}, {
+    template: [["core/image"]],
+    templateLock: true
+  });
+
+  /**
+   * Set attribute on select image
+   */
+  const onSelectImage = image => {
+    return props.setAttributes({
+      image: {
+        id: image.id,
+        url: image.url,
+        alt: image.alt
+      }
+    });
+  };
+
+  /**
+   * Set attribute on remove image
+   */
+  const onRemoveImage = () => {
+    return props.setAttributes({
+      image: {
+        id: '',
+        url: '',
+        alt: ''
+      }
+    });
+  };
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InspectorControls, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelBody, {
-    title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Cta Settings'),
-    initialOpen: "true"
-  })), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    title: "Image settings"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, !image.url ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.MediaPlaceholder, {
+    labels: {
+      title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Icon'),
+      name: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Icon')
+    },
+    onSelect: onSelectImage,
+    allowedTypes: ['image'],
+    accept: "image/*",
+    type: "image",
+    multiple: false,
+    ...props
+  }) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    className: "imageFrame"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
+    src: image.url,
+    className: "w-full components-base-control"
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.Button, {
+    className: "remove-image is-button button-secondary",
+    onClick: onRemoveImage
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Remove image', 'commvault'))))))), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "tagBlock"
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("span", null, props.name)), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "content__cta bg-gris-oscuro"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
-    className: "mt-0 text-5xl cta__title text-gris-oscuro",
-    tagName: "h3",
-    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Hero Intro text Lorem ipsum dolor sit amed'),
-    value: title,
-    onChange: title => setAttributes({
-      title
-    })
-  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.RichText, {
-    className: "cta__description text-lightGraySonos text-body-l",
-    tagName: "p",
-    placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('General site description Intro text Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed.'),
-    value: description,
-    onChange: description => setAttributes({
-      description
-    })
+    className: "imageFrame"
+  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
+    ...innerBlocksProps
   }))));
 }
 
 /***/ }),
 
-/***/ "./src/cta/index.js":
-/*!**************************!*\
-  !*** ./src/cta/index.js ***!
-  \**************************/
+/***/ "./src/cta-outdoors/index.js":
+/*!***********************************!*\
+  !*** ./src/cta-outdoors/index.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -137,11 +180,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/cta/style.scss");
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./edit */ "./src/cta/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./save */ "./src/cta/save.js");
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./block.json */ "./src/cta/block.json");
-/* harmony import */ var _assets_clicky_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/clicky.svg */ "./src/cta/assets/clicky.svg");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ "./src/cta-outdoors/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./edit */ "./src/cta-outdoors/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./save */ "./src/cta-outdoors/save.js");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./block.json */ "./src/cta-outdoors/block.json");
+/* harmony import */ var _assets_clicky_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/clicky.svg */ "./src/cta-outdoors/assets/clicky.svg");
 
 /**
  * Registers a new block provided a unique name and an object defining its behavior.
@@ -189,10 +232,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/cta/save.js":
-/*!*************************!*\
-  !*** ./src/cta/save.js ***!
-  \*************************/
+/***/ "./src/cta-outdoors/save.js":
+/*!**********************************!*\
+  !*** ./src/cta-outdoors/save.js ***!
+  \**********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -228,10 +271,10 @@ function save() {
 
 /***/ }),
 
-/***/ "./src/cta/editor.scss":
-/*!*****************************!*\
-  !*** ./src/cta/editor.scss ***!
-  \*****************************/
+/***/ "./src/cta-outdoors/editor.scss":
+/*!**************************************!*\
+  !*** ./src/cta-outdoors/editor.scss ***!
+  \**************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -240,10 +283,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/cta/style.scss":
-/*!****************************!*\
-  !*** ./src/cta/style.scss ***!
-  \****************************/
+/***/ "./src/cta-outdoors/style.scss":
+/*!*************************************!*\
+  !*** ./src/cta-outdoors/style.scss ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -302,13 +345,13 @@ module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
-/***/ "./src/cta/block.json":
-/*!****************************!*\
-  !*** ./src/cta/block.json ***!
-  \****************************/
+/***/ "./src/cta-outdoors/block.json":
+/*!*************************************!*\
+  !*** ./src/cta-outdoors/block.json ***!
+  \*************************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"mijobrands/cta","version":"0.1.0","title":"Cta Block","category":"mijobrands-blocks","icon":"smiley","description":"Simple Cta block","attributes":{"title":{"type":"string","default":"Hero Intro text Lorem ipsum dolor sit amed"},"description":{"type":"string","default":"General site description Intro text Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed"}},"example":{"title":{"type":"string","default":"Hero Intro text Lorem ipsum dolor sit amed"},"description":{"type":"string","default":"General site description Intro text Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed"}},"supports":{"html":false},"textdomain":"mijobrands","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js","render":"file:./render.php"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"mijobrands/cta-outdoors","version":"0.1.0","title":"OutDoors Cta","category":"mijobrands-blocks","icon":"smiley","description":"Sonos OutDoors Cta.","attributes":{"image":{"type":"object","default":{"url":"https://via.placeholder.com/644?text=Image","alt":"placeholder"}},"logo":{"type":"object","default":{"url":"https://via.placeholder.com/340?text=Image","alt":"placeholder"}}},"example":{},"supports":{"html":false},"textdomain":"mijobrands","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","viewScript":"file:./view.js","render":"file:./render.php"}');
 
 /***/ })
 
@@ -422,8 +465,8 @@ module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/tru
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"cta/index": 0,
-/******/ 			"cta/style-index": 0
+/******/ 			"cta-outdoors/index": 0,
+/******/ 			"cta-outdoors/style-index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -473,7 +516,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/tru
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["cta/style-index"], () => (__webpack_require__("./src/cta/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["cta-outdoors/style-index"], () => (__webpack_require__("./src/cta-outdoors/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

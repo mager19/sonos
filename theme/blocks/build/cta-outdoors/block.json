@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mijobrands/cta-outdoors",
+  "version": "0.1.0",
+  "title": "OutDoors Cta",
+  "category": "mijobrands-blocks",
+  "icon": "smiley",
+  "description": "Sonos OutDoors Cta.",
+  "attributes": {
+    "image": {
+      "type": "object",
+      "default": {
+        "url": "https://via.placeholder.com/644?text=Image",
+        "alt": "placeholder"
+      }
+    },
+    "logo": {
+      "type": "object",
+      "default": {
+        "url": "https://via.placeholder.com/340?text=Image",
+        "alt": "placeholder"
+      }
+    }
+  },
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "mijobrands",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

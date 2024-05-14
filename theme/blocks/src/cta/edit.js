@@ -50,6 +50,9 @@ export default function Edit(props) {
 			</InspectorControls>
 
 			<div {...blockProps}>
+				<div className="tagBlock">
+					<span>{props.name}</span>
+				</div>
 				<div className="content__cta bg-gris-oscuro">
 					<RichText
 						className="mt-0 text-5xl cta__title text-gris-oscuro"

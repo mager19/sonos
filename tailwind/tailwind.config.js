@@ -20,7 +20,8 @@ module.exports = {
 				lightGraySonos: '#808080',
 				gris: {
 					oscuro: '#4D4D4F',
-					medium: '#4D4D4F'
+					medium: '#4D4D4F',
+					footer: '#262626'
 				},
 				heroBg: "#262626E5"
 

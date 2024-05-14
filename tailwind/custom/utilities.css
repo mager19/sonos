@@ -99,3 +99,38 @@
 		@apply bg-transparent border-0;
 	}
 }
+
+.footer-main-menu {
+	ul {
+		@apply pl-4 ml-4;
+		columns: 2;
+
+		@screen lg {
+			columns: 1;
+		}
+
+		li {
+			@apply pl-1 text-white;
+			list-style: disc;
+
+			a {
+				@apply font-normal text-white visited:text-white text-body-s;
+			}
+		}
+	}
+}
+
+.footer-footer-menu {
+	ul {
+		@apply pl-4 ml-4;
+
+		li {
+			@apply pl-1 text-white lg:pt-2;
+			list-style: disc;
+
+			a {
+				@apply font-normal text-white visited:text-white text-body-s;
+			}
+		}
+	}
+}

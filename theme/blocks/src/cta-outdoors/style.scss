@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-mijobrands-cta-outdoors {
+	@apply flex items-center justify-center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	height: 144px;
+	padding: 2px;
+
+	@screen lg {
+		height: 222px;
+	}
+
+	img {
+		max-width: 169px;
+		height: auto;
+
+		@screen lg {
+			max-width: 260px;
+		}
+	}
+}
