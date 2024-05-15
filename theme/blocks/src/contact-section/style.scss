@@ -1,0 +1,67 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-mijobrands-contact-section {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	.content__cta {
+		@apply pt-8 pb-2 lg:pt-0;
+		position: relative;
+
+		&:before {
+			background-color: #F57F43;
+			content: '';
+			display: block;
+			height: 64px;
+			width: 16px;
+			position: absolute;
+			transform: skew(15deg, 0);
+			top: 0;
+			left: 30px;
+		}
+
+		@screen lg{
+			&:before {
+				height: 64px;
+				width: 16px;
+				top: 0;
+				left: 0px;
+			}
+		}
+
+		.cta__title {
+			@apply pl-16 lg:pl-0 mt-0 lg:mt-1 font-normal lg:max-w-[390px];
+		}
+
+		.cta__description {
+			@apply lg:max-w-[390px];
+		}
+	}
+
+
+		.wpcf7-text {
+			@apply mb-4 pl-4 rounded-2xl w-full;
+			background-color: rgba(245, 127, 67, 0.07);
+			height: 40px;
+
+			&::placeholder {
+				@apply font-light;
+			}
+		}
+
+		.wpcf7-textarea {
+			@apply mb-4 pl-4 pt-4 rounded-2xl w-full;
+			background-color: rgba(245, 127, 67, 0.07);
+
+			&::placeholder {
+				@apply font-light;
+			}
+		}
+
+}

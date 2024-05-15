@@ -1,0 +1,36 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-mijobrands-contact-section {
+	@apply py-20 bg-gray-100;
+	border: 1px dotted #f00;
+
+	.content__cta {
+		@apply pl-16 lg:pl-16;
+		position: relative;
+
+		&:before {
+			background-color: #F57F43;
+			content: '';
+			display: block;
+			height: 64px;
+			width: 16px;
+			position: absolute;
+			transform: skew(15deg, 0);
+			top: 0;
+			left: 10px;
+			opacity: 0.6;
+		}
+
+		.cta__title {
+			@apply mt-0 lg:mt-1 font-normal text-2xl max-w-[370px];
+		}
+
+		.cta__description {
+			@apply max-w-[360px];
+		}
+	}
+}

@@ -1,0 +1,90 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/contact-section/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-mijobrands-contact-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.wp-block-mijobrands-contact-section .content__cta {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .wp-block-mijobrands-contact-section .content__cta {
+    padding-top: 0px;
+  }
+}
+.wp-block-mijobrands-contact-section .content__cta {
+  position: relative;
+}
+.wp-block-mijobrands-contact-section .content__cta:before {
+  background-color: #F57F43;
+  content: "";
+  display: block;
+  height: 64px;
+  width: 16px;
+  position: absolute;
+  transform: skew(15deg, 0);
+  top: 0;
+  left: 30px;
+}
+@media (min-width: 1024px) {
+  .wp-block-mijobrands-contact-section .content__cta:before {
+    height: 64px;
+    width: 16px;
+    top: 0;
+    left: 0px;
+  }
+}
+.wp-block-mijobrands-contact-section .content__cta .cta__title {
+  margin-top: 0px;
+  padding-left: 4rem;
+  font-weight: 400;
+}
+@media (min-width: 1024px) {
+  .wp-block-mijobrands-contact-section .content__cta .cta__title {
+    margin-top: 0.25rem;
+    max-width: 390px;
+    padding-left: 0px;
+  }
+  .wp-block-mijobrands-contact-section .content__cta .cta__description {
+    max-width: 390px;
+  }
+}
+.wp-block-mijobrands-contact-section .wpcf7-text {
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  background-color: rgba(245, 127, 67, 0.07);
+  height: 40px;
+}
+.wp-block-mijobrands-contact-section .wpcf7-text::-moz-placeholder {
+  font-weight: 300;
+}
+.wp-block-mijobrands-contact-section .wpcf7-text::placeholder {
+  font-weight: 300;
+}
+.wp-block-mijobrands-contact-section .wpcf7-textarea {
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: rgba(245, 127, 67, 0.07);
+}
+.wp-block-mijobrands-contact-section .wpcf7-textarea::-moz-placeholder {
+  font-weight: 300;
+}
+.wp-block-mijobrands-contact-section .wpcf7-textarea::placeholder {
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

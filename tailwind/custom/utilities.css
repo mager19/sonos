@@ -32,6 +32,15 @@
 	}
 }
 
+.wpcf7-submit {
+	@apply inline-flex items-center gap-0 lg:gap-4 px-5 py-[10px] text-sm font-semibold leading-none rounded-3xl border border-orangeSonos text-body-s float-right;
+	letter-spacing: 1px;
+
+	&:hover {
+		@apply text-white border bg-heroBg border-orangeSonos;
+	}
+}
+
 .video__homepage {
 	margin: 0;
 	video {

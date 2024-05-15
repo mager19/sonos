@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "mijobrands/contact-section",
+	"version": "0.1.0",
+	"title": "Contact Section",
+	"category": "mijobrands-blocks",
+	"icon": "smiley",
+	"description": "Section with text and contact form.",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Contact form title Lorem ipsum dolor sit amed"
+		},
+		"description": {
+			"type": "string",
+			"default": "Contact form Intro text Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed Lorem ipsum dolor sit amed"
+		},
+		"image": {
+			"type": "object",
+			"default": {
+				"url" : "https://via.placeholder.com/1024?text=Image",
+				"alt" : "placeholder"
+			}
+		},
+		"shortcode": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mijobrands",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}
